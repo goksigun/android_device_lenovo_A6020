@@ -41,8 +41,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Charger images
 PRODUCT_PACKAGES += \
-    charger_res_images \
-    product_charger_res_images
+    charger_res_images
 
 # Dex
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
