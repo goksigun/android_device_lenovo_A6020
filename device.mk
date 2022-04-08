@@ -21,6 +21,9 @@ DEVICE_PACKAGE_OVERLAYS += device/lenovo/A6020/overlay
 
 $(call inherit-product, vendor/lenovo/A6020/A6020-vendor.mk)
 
+#Ignore neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
